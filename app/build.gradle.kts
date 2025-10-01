@@ -31,7 +31,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    // Настройка Kotlin JVM target
     kotlinOptions {
         jvmTarget = "11"
     }
