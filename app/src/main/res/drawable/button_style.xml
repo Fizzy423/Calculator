@@ -3,8 +3,8 @@
     <!-- состояние нажатия -->
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
-            <solid android:color="#FF9800"/> <!-- цвет при нажатии -->
-            <corners android:radius="16dp"/> <!-- скруглённые углы -->
+            <solid android:color="#FF9800"/> 
+            <corners android:radius="16dp"/> 
             <padding
                 android:left="16dp"
                 android:top="8dp"
@@ -12,10 +12,10 @@
                 android:bottom="8dp"/>
         </shape>
     </item>
-    <!-- обычное состояние -->
+
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="#FFC107"/> <!-- основной цвет -->
+            <solid android:color="#FFC107"/> 
             <corners android:radius="16dp"/>
             <padding
                 android:left="16dp"
